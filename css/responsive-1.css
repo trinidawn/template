@@ -1,0 +1,28 @@
+/* mobile devices */
+@media (max-width: 400px) {
+    #container {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+    
+    #title, #login, sign-up, #menu, #post, #posts {
+        grid-column: 1;
+    }
+    
+    #title {
+        grid-row: 1;
+    }
+    
+    
+/*    tablet*/
+    @media (min-width: 410px) and (max-width: 800px) {
+        #container {
+            width: 100%;
+        }
+    }
+    
+        
+        #post {
+            grid-column: 3 / span 1;
+            grid-row: 
+    }

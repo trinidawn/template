@@ -1,0 +1,13 @@
+/*mobile*/
+@media (max-width: 400px;) {
+    #container {
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+            "header"
+            "menu"
+            "post"
+            "main"
+            "login"
+            "footer"
+    }
+}
